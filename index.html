@@ -29,57 +29,56 @@
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="search" placeholder="Marseille, France" size="1">
                 <button>
-                    <span class="searchFormText">Rechercher</span>
-                    <i class="fas fa-search"></i>
+                    <p class="searchFormText">Rechercher</p>
                 </button>
             </form>
         </section>
         
-        <section>
+        <section class="filterMain">
             <!-- filtres -->
             <h1>Filtres</h1>
             <div class="filter">
                 <div class="filterIcon">
                     <i class="fas fa-money-bill-wave"></i>
                 </div>
-                <p class="filterTitle">Économique</span>
+                <span class="filterTitle">Économique</span>
             </div>
             <div class="filter">
                 <div class="filterIcon">
                     <i class="fas fa-child"></i>
                 </div>
-                <p class="filterTitle">Familial</span>
+                <span class="filterTitle">Familial</span>
             </div>
             <div class="filter">
                 <div class="filterIcon">
                     <i class="fas fa-heart"></i>
                 </div>
-                <p class="filterTitle">Romantique</span>
+                <span class="filterTitle">Romantique</span>
             </div>
             <div class="filter">
                 <div class="filterIcon">
                     <i class="fas fa-dog"></i>
                 </div>
-                <p class="filterTitle">Animaux autorisés</span>
+                <span class="filterTitle">Animaux autorisés</span>
             </div>            
             
         </section>
         
-        <section>
+        <section class=info>
             <!-- info -->
-            <div class="info"><i class="fas fa-info"></i></div>
+            <i class="fas fa-info infoIcon"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
             
         </section>
         
-        <section id=accomodations>
-            <h1 class="accomodationHeaderTitle">Hébergements à Marseille</h1>
-            <article>
+        <section class=accomodations id=accomodations>
+            <article class=article>
+                <h1 class="accomodationHeaderTitle">Hébergements à Marseille</h1>
                 <div class="accomodationMain">
                     <a href="#">
                         <div class="accomodationPart">
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Auberge la Canebière</h2>
+                            <h4>Auberge la Canebière</h4>
                             <p>Nuit à partir de <em>25€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
@@ -93,7 +92,7 @@
                     <a href="#">
                         <div class="accomodationPart">
                             <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Auberge la Canebière</h2>
+                            <h4>Hôtel du port</h4>
                             <p>Nuit à partir de <em>52€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
@@ -107,7 +106,7 @@
                     <a href="#">
                         <div class="accomodationPart">
                             <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Auberge la Canebière</h2>
+                            <h4>Hôtel Les mouettes</h4>
                             <p>Nuit à partir de <em>76€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
@@ -121,7 +120,7 @@
                     <a href="#">
                         <div class="accomodationPart">
                             <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Auberge la Canebière</h2>
+                            <h4>Auberge de la mer</h4>
                             <p>Nuit à partir de <em>46€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
@@ -135,7 +134,7 @@
                     <a href="#">
                         <div class="accomodationPart">
                             <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Auberge la Canebière</h2>
+                            <h4>Auberge Le Panier</h4>
                             <p>Nuit à partir de <em>23€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
@@ -149,7 +148,7 @@
                     <a href="#">
                         <div class="accomodationPart">
                             <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Auberge la Canebière</h2>
+                            <h4>Hôtel chez Amina</h4>
                             <p>Nuit à partir de <em>96€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
@@ -166,48 +165,54 @@
                 
             </article>
             
-            <aside>
+            <aside class="aside">
                 <div class="popularHeader">
-                    <h2>Les plus populaires</h2>
+                    <h1>Les plus populaires</h1>
                     <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="popularMain">
                     <a href="#">
                         <div class="popularPart">
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hébergement 1" />
-                            <h2>Hôtel Le soleil du matin</h2>
-                            <p>Nuit à partir de <em>25€</em></p>
+                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hébergement 1" />
+                            <div class="popularPartRight">
+                                <h4>Hôtel Le soleil du matin</h4>
+                                <p>Nuit à partir de <em>25€</em></p>
+                                <div class="accomadationPartStars">
+                                    <i class="fas fa-star" data-active="true"></i>
+                                    <i class="fas fa-star" data-active="true"></i>
+                                    <i class="fas fa-star" data-active="true"></i>
+                                    <i class="fas fa-star" data-active="true"></i>
+                                    <i class="fas fa-star" data-active="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="popularPart">
+                        <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Hébergement 1" />
+                        <div class="popularPartRight">
+                            <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                            <p>Nuit à partir de <em>71€</em></p>
                             <div class="accomadationPartStars">
                                 <i class="fas fa-star" data-active="true"></i>
                                 <i class="fas fa-star" data-active="true"></i>
                                 <i class="fas fa-star" data-active="true"></i>
                                 <i class="fas fa-star" data-active="true"></i>
-                                <i class="fas fa-star" data-active="true"></i>
+                                <i class="fas fa-star" data-active="false"></i>
                             </div>
-                        </div>
-                    </a>
-                    <div class="popularPart">
-                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Hébergement 1" />
-                        <h2>Auberge la Canebière</h2>
-                        <p>Nuit à partir de <em>71€</em></p>
-                        <div class="accomadationPartStars">
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="false"></i>
                         </div>
                     </div>
                     <div class="popularPart">
-                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hébergement 1" />
-                        <h2>Auberge la Canebière</h2>
-                        <p>Nuit à partir de <em>68€</em></p>
-                        <div class="accomadationPartStars">
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="true"></i>
-                            <i class="fas fa-star" data-active="false"></i>
+                        <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hébergement 1" />
+                        <div class="popularPartRight">
+                            <h4>Hôtel Tout bleu et Blanc</h4>
+                            <p>Nuit à partir de <em>68€</em></p>
+                            <div class="accomadationPartStars">
+                                <i class="fas fa-star" data-active="true"></i>
+                                <i class="fas fa-star" data-active="true"></i>
+                                <i class="fas fa-star" data-active="true"></i>
+                                <i class="fas fa-star" data-active="true"></i>
+                                <i class="fas fa-star" data-active="false"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
