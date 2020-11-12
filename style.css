@@ -85,6 +85,11 @@ a {
   font-weight: bold;
 }
 
+.filter:hover{
+    border: 0;
+    background-color: #DEEBFF;
+}
+
 .filter i{
   background-color: #DEEBFF;
   border-radius: 100%;
@@ -142,6 +147,10 @@ a {
  font-weight: bold;
 }
 
+.accomodationPart:hover,.popularPart:hover, .activityPart:hover{
+  transform: scale(1.01);
+}
+    
 
 
 .accomodationMain{
@@ -155,7 +164,7 @@ a {
 }
 
 .accomodationPart{
-  margin: 1rem;
+  margin: 0.5rem;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -182,6 +191,7 @@ a {
  background-color: #F2F2F2;
  display: flex; 
  flex-wrap: wrap;
+ justify-content: center;
  
 }
 
@@ -286,7 +296,7 @@ a {
 
 
 
-@media screen and (max-width:899px){
+@media screen and (max-width:849px){
 
     .headerLogo{
         margin-left: 1rem;
@@ -338,7 +348,7 @@ a {
     }
 
     .activityMain{
-        flex-direction: column;
+    flex-direction: column;
     }
 
     .activityPart {
@@ -357,9 +367,18 @@ a {
 
 }
 
-@media screen and (min-width:900px){
-  
 
+@media screen and (min-width:800px) and (max-width:1299px){
+
+}
+
+
+@media screen and (min-width:850px){
+  
+    .mainPartBottom, .mainPartHeader{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }  
         
     .headerMenu {
     padding: 2rem;
@@ -394,7 +413,7 @@ a {
     }  
 
     .article{
-    width: 70%;
+    width: 75%;
     margin-right: 2rem;
     background-color: #F2F2F2;
     }
@@ -403,11 +422,6 @@ a {
     width: 30%; 
     border-radius: 1.25rem;  
     }
-
-    .mainPartBottom, .mainPartHeader{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    }  
 
 
     .accomodationMain{ 
@@ -422,7 +436,7 @@ a {
 
     .activityMain{
         justify-content: space-between;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         height: 500px
     }
 
