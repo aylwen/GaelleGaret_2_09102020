@@ -1,7 +1,10 @@
 # Reservia
 Intégration d'une maquette d'un outil de planification de vacance.
 
+## Maquette web
 ![maquette web reservia](./images/maquettes/Desktop.png)
+
+## Maquette iPhone 8
 ![maquette iphone8 reservia](./images/maquettes/iPhone8.png)
 
 ## Fonctionnalité
