@@ -2,7 +2,7 @@
 Intégration d'une maquette d'un outil de planification de vacance.
 
 ![maquette web reservia](./images/maquettes/Desktop.png)
-![maquette iphone8 reservia](./images/maquettes/Desktop.png)
+![maquette iphone8 reservia](./images/maquettes/iPhone8.png)
 
 ## Fonctionnalité
 - Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
