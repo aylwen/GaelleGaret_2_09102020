@@ -135,7 +135,7 @@ p {
 
 .accomodationHeaderTitle,
 .accomodationMore {
-	margin-left: 1rem;
+	padding-left: 0.5rem;
 }
 
 .accomodationMore {
@@ -183,10 +183,16 @@ p {
 }
 
 .aside {
+    padding: 0.375rem;
 	background-color: #F2F2F2;
-	display: flex;
+}
+
+
+
+.popularMain {
+    display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .aside img {
@@ -198,7 +204,8 @@ p {
 }
 
 .popularPart {
-	margin: 1.5rem;
+    margin: 1.5rem;
+    margin-top: 0.5rem;
 	display: flex;
 	background-color: white;
 	padding: 0.375rem;
@@ -224,11 +231,12 @@ p {
 	justify-content: space-between;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
-	margin-top: 1rem;
 }
 
 .popularHeader i {
-	margin-top: 1.3rem;
+	margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    padding-right: 1rem;
 }
 
 .activities {
@@ -438,6 +446,8 @@ p {
 		width: 75%;
 		margin-right: 2rem;
 		background-color: #F2F2F2;
+        padding-left: 2rem;
+        padding-right: 2rem;
 	}
 	.aside {
 		width: 30%;
@@ -445,7 +455,7 @@ p {
 	}
 	.accomodationMain {
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 	.accomodationPart img {
 		width: 250px;
